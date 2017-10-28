@@ -1,0 +1,136 @@
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.column{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 33%;
+    border: 1px black solid;
+}
+
+.column h3{
+    text-align:  center;
+    margin: 0px;
+    font-size:30pt;
+    font-weight: 100;
+}
+
+.addStorybtn{
+    position: absolute;
+    right:3%;
+    top:6%;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align:center;
+    background: #fff;
+    font-size: 150%;
+}
+
+#sortable0-head{background: #ff5c33}
+#sortable1-head{background:#ffb84d}
+#sortable2-head{background: #6699ff}
+
+.column .sortable_story_list {
+    width:100%;
+    min-height: 85px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    margin-right: 10px;
+}
+
+.single_story_row {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    min-height: 70px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    position: relative;
+}
+
+.story_row_title{
+    position: absolute;
+    top:15%;
+    left:10%;
+    color: #000;
+}
+
+.story_row_date{
+    position: absolute;
+    top:70%;
+    left:10%; 
+    font-size: 14px;
+}
+
+.story_row_priority{
+    position: absolute;
+    top:65%;
+    left:60%; 
+}
+
+.edit_story_icon{
+    position: absolute;
+    left:90%;
+    top:15%;
+}
+
+.trash_story_icon{
+    position:absolute;
+    left:90%;
+    top:70%;
+}
+
+#add_story_window{
+    display: none;
+}
+
+#story_description{
+    width:100%;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+
+#story_title_input{
+    margin-bottom: 5px;
+}
+
+.date_And_Priority_Box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#slider{ margin-top: 10px;}
+
+.Priority_Output{
+    border:0;
+    color:#f6931f;
+    font-weight:bold;
+    width: 10px;
+}
+
+#datepicker{width: 100px;}
+
+#sortable_comment_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sortable_comment_list li {
+    margin: 0 3px 3px 3px;
+    padding: 10px;
+}
+
+#trash_comment_icon{
+    position: relative;
+    top:5%;
+    left:10%;
+}
