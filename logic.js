@@ -13,6 +13,8 @@ var colors = {
 var allData = {
 };
 
+var test = 1;
+
 var storyObj = {
 
     openDialog: function (event) {
